@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+    padding: 1em;
+    border: 1px solid black;
+    border-width:thin;
+    float: left;
+    color: #347BB3;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+.pagination a.active {
+    background-color: #307BBC;
+    color: white;
+  }
+  
+.pagination a:hover:not(.active) {background-color: #ddd;} 
+
+.content{
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.keyDiv {
+    text-align: right;
+    margin: 10px;
+}
+
+.valueDiv {
+    text-align: left;
+    margin: 10px;
+}

@@ -1,0 +1,24 @@
+.container{
+    border:2px solid black;
+    width: 22%;
+    background-color: bisque;
+}
+.buttons{
+    padding:5px;
+    width: 5em;
+    margin: 5px;
+    border-radius:5px;
+    background-color:gold;
+}
+#result{
+    height: 2em;
+    margin:5px;
+    border: 2px solid;
+}
+.buttons:hover{
+    background-color: forestgreen;
+}
+#clear{
+    margin-left:15%;
+    margin-right:20%;
+}
